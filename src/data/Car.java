@@ -1,12 +1,10 @@
 package data;
 
-import java.awt.*;
-
 public class Car {
-    private String mark;
-    private String color;
-    private int quantity;
-    private int price;
+    public String mark;
+    public String color;
+    public int quantity;
+    public int price;
 
     public Car(String mark, String color, int quantity, int price){
         this.mark = mark;
