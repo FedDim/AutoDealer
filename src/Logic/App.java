@@ -26,7 +26,8 @@ public class App {
                     itIsEndOfWork = firstButton.otherButton(itIsEndOfWork);
                     break;
                 case "2":
-
+                    SecondButton secondButton = new SecondButton();
+                    itIsEndOfWork = secondButton.isItEnd();
                     break;
                 case "3":
 

@@ -26,14 +26,15 @@ public class FirstButton{
             System.out.println(textSelectAction);
             switch (sc.nextLine()){
                 case "2":
-
+                    SecondButton secondButton = new SecondButton();
+                    itIsEndOfWork = secondButton.isItEnd();
                     break;
                 case "3":
 
                     break;
                 case "4":
                     itIsEndOfWork = true;
-                break;
+                    break;
                 default:
                     System.out.println("Нет такого действия");
                     break;
